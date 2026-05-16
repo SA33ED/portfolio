@@ -10,6 +10,7 @@ import { YoutubeSection } from "@/components/portfolio/YoutubeSection";
 import { Testimonials } from "@/components/portfolio/Testimonials";
 import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
+import { siteBasePath } from "@/lib/site-base";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -26,9 +27,9 @@ export const Route = createFileRoute("/")({
         content: "Building scalable mobile experiences with Flutter & modern engineering.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/" },
+      { property: "og:url", content: siteBasePath },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [{ rel: "canonical", href: siteBasePath }],
   }),
   component: Index,
 });

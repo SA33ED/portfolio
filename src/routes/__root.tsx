@@ -9,6 +9,7 @@ import {
 } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
+import { siteBasePath } from "../lib/site-base";
 
 function NotFoundComponent() {
   return (
@@ -73,17 +74,38 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Mohammed Saeed — Senior Flutter Developer" },
-      { name: "description", content: "Portfolio of Mohammed Saeed — Senior Flutter Developer building scalable mobile experiences." },
+      {
+        name: "description",
+        content:
+          "Portfolio of Mohammed Saeed — Senior Flutter Developer building scalable mobile experiences.",
+      },
       { name: "author", content: "Mohammed Saeed" },
       { property: "og:title", content: "Mohammed Saeed — Senior Flutter Developer" },
-      { property: "og:description", content: "Portfolio of Mohammed Saeed — Senior Flutter Developer building scalable mobile experiences." },
+      {
+        property: "og:description",
+        content:
+          "Portfolio of Mohammed Saeed — Senior Flutter Developer building scalable mobile experiences.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "Mohammed Saeed — Senior Flutter Developer" },
-      { name: "twitter:description", content: "Portfolio of Mohammed Saeed — Senior Flutter Developer building scalable mobile experiences." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f40f6348-01e6-4874-9fbc-6a1f2bc70db9/id-preview-31ef85de--0e887bbd-a197-46c9-b62b-fd90f6af37da.lovable.app-1778853937074.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f40f6348-01e6-4874-9fbc-6a1f2bc70db9/id-preview-31ef85de--0e887bbd-a197-46c9-b62b-fd90f6af37da.lovable.app-1778853937074.png" },
+      {
+        name: "twitter:description",
+        content:
+          "Portfolio of Mohammed Saeed — Senior Flutter Developer building scalable mobile experiences.",
+      },
+      { property: "og:url", content: siteBasePath },
+      {
+        property: "og:image",
+        content:
+          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f40f6348-01e6-4874-9fbc-6a1f2bc70db9/id-preview-31ef85de--0e887bbd-a197-46c9-b62b-fd90f6af37da.lovable.app-1778853937074.png",
+      },
+      {
+        name: "twitter:image",
+        content:
+          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f40f6348-01e6-4874-9fbc-6a1f2bc70db9/id-preview-31ef85de--0e887bbd-a197-46c9-b62b-fd90f6af37da.lovable.app-1778853937074.png",
+      },
     ],
     links: [
       {
