@@ -15,13 +15,13 @@ import { siteBasePath } from "@/lib/site-base";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Mohammed Saeed — Senior Flutter Developer" },
+      { title: "Mohammed Saeed — Mid-Level Flutter Developer" },
       {
         name: "description",
         content:
-          "Senior Flutter Developer crafting production-grade mobile apps with clean architecture, real-time systems, and AI-powered experiences.",
+          "Mid-Level Flutter Developer crafting production-grade mobile apps with clean architecture, real-time systems, and AI-powered experiences.",
       },
-      { property: "og:title", content: "Mohammed Saeed — Senior Flutter Developer" },
+      { property: "og:title", content: "Mohammed Saeed — Mid-Level Flutter Developer" },
       {
         property: "og:description",
         content: "Building scalable mobile experiences with Flutter & modern engineering.",

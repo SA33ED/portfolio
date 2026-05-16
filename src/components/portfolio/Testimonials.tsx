@@ -6,7 +6,7 @@ import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
 const items = [
   {
     quote:
-      "Mohammed delivered our multi-vendor app with the kind of architecture I'd expect from senior engineers at far bigger companies. Calm, precise, and product-minded.",
+      "Mohammed delivered our multi-vendor app with the kind of architecture I'd expect from mid-level engineers at far bigger companies. Calm, precise, and product-minded.",
     name: "Ahmed K.",
     role: "CTO, evyx",
   },
@@ -18,7 +18,7 @@ const items = [
   },
   {
     quote:
-      "His Flutter videos are the reason I finally understood Bloc. He explains things the way a senior dev wishes someone had explained to them.",
+      "His Flutter videos are the reason I finally understood Bloc. He explains things the way a mid-level dev wishes someone had explained to them.",
     name: "Yusuf A.",
     role: "Flutter Developer",
   },

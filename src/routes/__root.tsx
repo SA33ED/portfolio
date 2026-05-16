@@ -73,27 +73,27 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Mohammed Saeed — Senior Flutter Developer" },
+      { title: "Mohammed Saeed — Mid-Level Flutter Developer" },
       {
         name: "description",
         content:
-          "Portfolio of Mohammed Saeed — Senior Flutter Developer building scalable mobile experiences.",
+          "Portfolio of Mohammed Saeed — Mid-Level Flutter Developer building scalable mobile experiences.",
       },
       { name: "author", content: "Mohammed Saeed" },
-      { property: "og:title", content: "Mohammed Saeed — Senior Flutter Developer" },
+      { property: "og:title", content: "Mohammed Saeed — Mid-Level Flutter Developer" },
       {
         property: "og:description",
         content:
-          "Portfolio of Mohammed Saeed — Senior Flutter Developer building scalable mobile experiences.",
+          "Portfolio of Mohammed Saeed — Mid-Level Flutter Developer building scalable mobile experiences.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
-      { name: "twitter:title", content: "Mohammed Saeed — Senior Flutter Developer" },
+      { name: "twitter:title", content: "Mohammed Saeed — Mid-Level Flutter Developer" },
       {
         name: "twitter:description",
         content:
-          "Portfolio of Mohammed Saeed — Senior Flutter Developer building scalable mobile experiences.",
+          "Portfolio of Mohammed Saeed — Mid-Level Flutter Developer building scalable mobile experiences.",
       },
       { property: "og:url", content: siteBasePath },
       {

@@ -20,7 +20,7 @@ export function Contact() {
         <SectionHeader
           eyebrow="Contact"
           title={<>Let's build something <span className="text-gradient">remarkable</span>.</>}
-          description="Have a product in mind, or a senior Flutter role to fill? Let's talk."
+          description="Have a product in mind, or a mid-level Flutter role to fill? Let's talk."
         />
 
         <div className="grid lg:grid-cols-5 gap-6">
@@ -72,7 +72,7 @@ export function Contact() {
               <Field label="Your name" placeholder="Jane Doe" />
               <Field label="Email" type="email" placeholder="jane@company.com" />
             </div>
-            <Field label="Subject" placeholder="Senior Flutter role / Project inquiry" />
+            <Field label="Subject" placeholder="Mid-level Flutter role / Project inquiry" />
             <div>
               <label className="block text-xs text-muted-foreground mb-1.5">Message</label>
               <textarea

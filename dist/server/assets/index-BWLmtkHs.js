@@ -1,9 +1,7 @@
-import { P as reactExports, H as jsxRuntimeExports } from "./server-j80MhtUa.js";
-import { s as siteBasePath } from "./worker-entry-CXZoQhcR.js";
+import { P as reactExports, H as jsxRuntimeExports } from "./server-D6R7RqRp.js";
 import "node:async_hooks";
 import "node:stream/web";
 import "node:stream";
-import "node:events";
 const LayoutGroupContext = reactExports.createContext({});
 function useConstant(init) {
   const ref = reactExports.useRef(null);
@@ -8806,9 +8804,9 @@ const __iconNode = [
 const Youtube = createLucideIcon("youtube", __iconNode);
 const links$1 = [
   { label: "About", href: "#about" },
-  { label: "Skills", href: "#skills" },
   { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
+  { label: "Skills", href: "#skills" },
   { label: "YouTube", href: "#youtube" },
   { label: "Contact", href: "#contact" }
 ];
@@ -8840,15 +8838,8 @@ function Navbar() {
         children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { className: "glass-strong rounded-2xl px-5 py-3 flex items-center justify-between", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "#hero", className: "flex items-center gap-2 group", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative", children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "img",
-                  {
-                    src: `${siteBasePath}assets/avatar.svg`,
-                    alt: "Mohammed",
-                    className: "h-8 w-8 rounded-lg shadow-glow object-cover"
-                  }
-                ),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "relative flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-primary text-primary-foreground font-bold shadow-glow", children: [
+                "M",
                 /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "absolute inset-0 rounded-lg bg-gradient-primary blur-md opacity-50 -z-10" })
               ] }),
               /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "font-semibold tracking-tight", children: [
@@ -8967,7 +8958,7 @@ function Hero() {
               /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "absolute inline-flex h-full w-full rounded-full bg-primary opacity-75 animate-ping" }),
               /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "relative inline-flex h-2 w-2 rounded-full bg-primary" })
             ] }),
-            "Available for Senior Flutter / Mobile roles"
+            "Available for Mid-level Flutter / Mobile roles"
           ] })
         }
       ),
@@ -9000,7 +8991,7 @@ function Hero() {
           children: [
             "I'm ",
             /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-foreground font-medium", children: "Mohammed Saeed" }),
-            " — a Senior Flutter Developer crafting production-grade apps with clean architecture, real-time systems, and AI-powered experiences."
+            " — a Mid-level Flutter Developer crafting production-grade apps with clean architecture, real-time systems, and AI-powered experiences."
           ]
         }
       ),
@@ -9142,7 +9133,7 @@ function About() {
       {
         eyebrow: "About",
         title: /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-          "Senior engineering, ",
+          "Mid-level engineering, ",
           /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gradient", children: "product mindset" }),
           "."
         ] }),
@@ -9691,7 +9682,7 @@ function YoutubeSection() {
 }
 const items = [
   {
-    quote: "Mohammed delivered our multi-vendor app with the kind of architecture I'd expect from senior engineers at far bigger companies. Calm, precise, and product-minded.",
+    quote: "Mohammed delivered our multi-vendor app with the kind of architecture I'd expect from mid-level engineers at far bigger companies. Calm, precise, and product-minded.",
     name: "Ahmed K.",
     role: "CTO, evyx"
   },
@@ -9701,7 +9692,7 @@ const items = [
     role: "Product Manager"
   },
   {
-    quote: "His Flutter videos are the reason I finally understood Bloc. He explains things the way a senior dev wishes someone had explained to them.",
+    quote: "His Flutter videos are the reason I finally understood Bloc. He explains things the way a mid-level dev wishes someone had explained to them.",
     name: "Yusuf A.",
     role: "Flutter Developer"
   }
@@ -9779,7 +9770,7 @@ function Contact() {
           /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gradient", children: "remarkable" }),
           "."
         ] }),
-        description: "Have a product in mind, or a senior Flutter role to fill? Let's talk."
+        description: "Have a product in mind, or a mid-level Flutter role to fill? Let's talk."
       }
     ),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid lg:grid-cols-5 gap-6", children: [
@@ -9830,7 +9821,7 @@ function Contact() {
               /* @__PURE__ */ jsxRuntimeExports.jsx(Field, { label: "Your name", placeholder: "Jane Doe" }),
               /* @__PURE__ */ jsxRuntimeExports.jsx(Field, { label: "Email", type: "email", placeholder: "jane@company.com" })
             ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Field, { label: "Subject", placeholder: "Senior Flutter role / Project inquiry" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Field, { label: "Subject", placeholder: "Mid-level Flutter role / Project inquiry" }),
             /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "block text-xs text-muted-foreground mb-1.5", children: "Message" }),
               /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -9881,7 +9872,7 @@ function Footer() {
           /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "h-8 w-8 rounded-lg bg-gradient-primary text-primary-foreground font-bold flex items-center justify-center shadow-glow", children: "M" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-semibold", children: "Mohammed Saeed" })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 text-sm text-muted-foreground max-w-xs", children: "Senior Flutter Developer building scalable mobile experiences and sharing the craft with the community." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 text-sm text-muted-foreground max-w-xs", children: "Mid-level Flutter Developer building scalable mobile experiences and sharing the craft with the community." })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "text-sm font-semibold", children: "Navigate" }),
@@ -9926,9 +9917,9 @@ function Index() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(Navbar, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Hero, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(About, {}),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(Skills, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Experience, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Projects, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(Skills, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Achievements, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(YoutubeSection, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Testimonials, {}),

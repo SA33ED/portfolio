@@ -15,7 +15,7 @@ export function About() {
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeader
           eyebrow="About"
-          title={<>Senior engineering, <span className="text-gradient">product mindset</span>.</>}
+          title={<>Mid-level engineering, <span className="text-gradient">product mindset</span>.</>}
           description="I started Flutter during university and quickly became one of the strongest mobile devs in my circle. Today I architect production-grade apps used by real users — focusing on performance, scalability and beautiful UX."
         />
 

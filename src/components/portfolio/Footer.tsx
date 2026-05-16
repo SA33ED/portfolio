@@ -13,7 +13,7 @@ export function Footer() {
               <span className="font-semibold">Mohammed Saeed</span>
             </a>
             <p className="mt-4 text-sm text-muted-foreground max-w-xs">
-              Senior Flutter Developer building scalable mobile experiences and sharing the craft with the community.
+              Mid-level Flutter Developer building scalable mobile experiences and sharing the craft with the community.
             </p>
           </div>
 

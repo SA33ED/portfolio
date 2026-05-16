@@ -63,7 +63,7 @@ export function Hero() {
               <span className="absolute inline-flex h-full w-full rounded-full bg-primary opacity-75 animate-ping" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
             </span>
-            Available for Senior Flutter / Mobile roles
+            Available for Mid-level Flutter / Mobile roles
           </div>
         </motion.div>
 
@@ -86,7 +86,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mt-6 text-center text-base md:text-lg text-muted-foreground max-w-2xl mx-auto"
         >
-          I'm <span className="text-foreground font-medium">Mohammed Saeed</span> — a Senior Flutter Developer crafting
+          I'm <span className="text-foreground font-medium">Mohammed Saeed</span> — a Mid-level Flutter Developer crafting
           production-grade apps with clean architecture, real-time systems, and AI-powered experiences.
         </motion.p>
 
