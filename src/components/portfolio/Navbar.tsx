@@ -44,7 +44,7 @@ export function Navbar() {
               <span className="absolute inset-0 rounded-lg bg-gradient-primary blur-md opacity-50 -z-10" />
             </span>
             <span className="font-semibold tracking-tight">
-              Saeed<span className="text-muted-foreground">.dev</span>
+              Mohammed<span className="text-muted-foreground">.dev</span>
             </span>
           </a>
 
