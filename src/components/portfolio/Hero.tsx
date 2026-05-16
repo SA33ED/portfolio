@@ -14,7 +14,7 @@ const floatingIcons = [
   { Icon: Code2, x: "88%", y: "28%", delay: 0.4 },
   { Icon: Layers, x: "12%", y: "75%", delay: 0.8 },
   { Icon: Sparkles, x: "85%", y: "70%", delay: 1.2 },
-  { Icon: Zap, x: "50%", y: "12%", delay: 1.6 },
+  // { Icon: Zap, x: "50%", y: "12%", delay: 1.6 },
 ];
 
 export function Hero() {

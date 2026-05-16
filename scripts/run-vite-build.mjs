@@ -6,9 +6,7 @@ import path from "node:path";
 
 const args = process.argv.slice(2);
 const viteBin = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../node_modules/vite/bin/vite.js");
-const nodeOptions = [process.env.NODE_OPTIONS, `--require ${path.resolve(path.dirname(fileURLToPath(import.meta.url)), "patch-stdin.cjs")}`]
-  .filter(Boolean)
-  .join(" ");
+const patchPath = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "patch-stdin.cjs");
 const clientIndex = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../dist/client/index.html");
 
 await rm(path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../dist"), {
@@ -16,11 +14,10 @@ await rm(path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../dist"), 
   recursive: true,
 });
 
-const child = spawn(process.execPath, [viteBin, ...args], {
+const child = spawn(process.execPath, ["--require", patchPath, viteBin, ...args], {
   stdio: ["inherit", "pipe", "pipe"],
   env: {
     ...process.env,
-    NODE_OPTIONS: nodeOptions,
   },
 });
 
