@@ -1,5 +1,5 @@
-import { P as reactExports, H as jsxRuntimeExports } from "./server-CvzNTp8H.js";
-import { s as siteBasePath } from "./worker-entry-BL5jOmbp.js";
+import { P as reactExports, H as jsxRuntimeExports } from "./server-j80MhtUa.js";
+import { s as siteBasePath } from "./worker-entry-CXZoQhcR.js";
 import "node:async_hooks";
 import "node:stream/web";
 import "node:stream";
@@ -8844,7 +8844,7 @@ function Navbar() {
                 /* @__PURE__ */ jsxRuntimeExports.jsx(
                   "img",
                   {
-                    src: `${siteBasePath}assets/profile.jpeg`,
+                    src: `${siteBasePath}assets/avatar.svg`,
                     alt: "Mohammed",
                     className: "h-8 w-8 rounded-lg shadow-glow object-cover"
                   }
