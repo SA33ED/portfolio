@@ -1,4 +1,4 @@
-import { P as reactExports, H as jsxRuntimeExports } from "./server-D6R7RqRp.js";
+import { P as reactExports, H as jsxRuntimeExports } from "./server-DmJfsxef.js";
 import "node:async_hooks";
 import "node:stream/web";
 import "node:stream";
@@ -9021,21 +9021,21 @@ function Hero() {
                 className: "inline-flex items-center gap-2 rounded-xl glass px-6 py-3 text-sm font-semibold hover:bg-white/10 transition-all",
                 children: "Contact Me"
               }
-            ),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs(
-              "a",
-              {
-                href: "#",
-                className: "inline-flex items-center gap-2 rounded-xl px-6 py-3 text-sm font-semibold text-muted-foreground hover:text-foreground transition-colors",
-                children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsx(Download, { size: 16 }),
-                  " Download CV"
-                ]
-              }
             )
           ]
         }
       ),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-6 flex justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+        "a",
+        {
+          href: "#",
+          className: "inline-flex items-center gap-2 rounded-xl px-6 py-3 text-sm font-semibold text-muted-foreground hover:text-foreground transition-colors",
+          children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Download, { size: 16 }),
+            " Download CV"
+          ]
+        }
+      ) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(
         motion.div,
         {

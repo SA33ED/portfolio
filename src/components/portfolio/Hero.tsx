@@ -109,13 +109,15 @@ export function Hero() {
           >
             Contact Me
           </a>
+        </motion.div>
+        <div className="mt-6 flex justify-center">
           <a
             href="#"
             className="inline-flex items-center gap-2 rounded-xl px-6 py-3 text-sm font-semibold text-muted-foreground hover:text-foreground transition-colors"
           >
             <Download size={16} /> Download CV
           </a>
-        </motion.div>
+        </div>
 
         <motion.div
           initial={{ opacity: 0, y: 30 }}
