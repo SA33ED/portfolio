@@ -34,7 +34,7 @@ export function Hero() {
   return (
     <section id="hero" ref={ref} className="relative min-h-screen flex items-center pt-32 pb-20 overflow-hidden">
       <div className="absolute inset-0 grid-bg" />
-      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[800px] h-[800px] rounded-full bg-gradient-primary opacity-20 blur-[120px] -z-10 animate-glow-pulse" />
+      {/* <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[800px] h-[800px] rounded-full bg-gradient-primary opacity-20 blur-[120px] -z-10 animate-glow-pulse" /> */}
 
       {floatingIcons.map(({ Icon, x, y, delay }, i) => (
         <motion.div
