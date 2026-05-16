@@ -1,7 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import { siteBasePath } from "../../lib/site-base";
 
 const links = [
   { label: "About", href: "#about" },
@@ -40,14 +39,10 @@ export function Navbar() {
       >
         <nav className="glass-strong rounded-2xl px-5 py-3 flex items-center justify-between">
           <a href="#hero" className="flex items-center gap-2 group">
-            <div className="relative">
-              <img
-                src={`${siteBasePath}assets/avatar.svg`}
-                alt="Mohammed"
-                className="h-8 w-8 rounded-lg shadow-glow object-cover"
-              />
+            <span className="relative flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-primary text-primary-foreground font-bold shadow-glow">
+              M
               <span className="absolute inset-0 rounded-lg bg-gradient-primary blur-md opacity-50 -z-10" />
-            </div>
+            </span>
             <span className="font-semibold tracking-tight">
               Mohammed<span className="text-muted-foreground"> Saeed</span>
             </span>
