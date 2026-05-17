@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Smartphone, Code2, Sparkles, Layers, Github, FileText, Eye } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
+import { siteBasePath } from "@/lib/site-base";
 
 const stats = [
   { value: "3+", label: "Years Experience" },
@@ -104,7 +105,7 @@ export function Hero() {
             View Projects
           </a>
           <a
-            href="/portfolio/Mohammed_Saeed_Flutter.pdf"
+            href={`${siteBasePath}Mohammed_Saeed_Flutter.pdf`}
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-xl glass px-6 py-3 text-sm font-semibold hover:bg-white/10 transition-all"

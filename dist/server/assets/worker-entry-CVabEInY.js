@@ -799,7 +799,7 @@ function consumeLastCapturedError() {
   lastCapturedError = void 0;
   return error;
 }
-const siteBasePath = "/portfolio/";
+const siteBasePath = "/portoflio/";
 function renderErrorPage() {
   return `<!doctype html>
 <html lang="en">
@@ -833,7 +833,7 @@ function renderErrorPage() {
 let serverEntryPromise;
 async function getServerEntry() {
   if (!serverEntryPromise) {
-    serverEntryPromise = import("./server-yhYKxXaI.js").then((n) => n.Z).then(
+    serverEntryPromise = import("./server-Db0FX1xP.js").then((n) => n.Z).then(
       (m) => m.default ?? m
     );
   }
