@@ -799,7 +799,7 @@ function consumeLastCapturedError() {
   lastCapturedError = void 0;
   return error;
 }
-const siteBasePath = "/portoflio/";
+const siteBasePath = "/portfolio/";
 function renderErrorPage() {
   return `<!doctype html>
 <html lang="en">

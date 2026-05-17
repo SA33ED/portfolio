@@ -4665,7 +4665,7 @@ var QueryClientProvider = ({
   }, [client]);
   return /* @__PURE__ */ jsxRuntimeExports.jsx(QueryClientContext.Provider, { value: client, children });
 };
-const appCss = "/portoflio/assets/styles-yTjtIA0C.css";
+const appCss = "/portfolio/assets/styles-yTjtIA0C.css";
 function NotFoundComponent() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex min-h-screen items-center justify-center bg-background px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-md text-center", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-7xl font-bold text-foreground", children: "404" }),

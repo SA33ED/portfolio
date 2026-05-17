@@ -17092,8 +17092,8 @@ If you intentionally handle CSRF another way, disable this warning:
     },
   })`);
 }
-var ROUTER_BASEPATH = "portoflio";
-var SERVER_FN_BASE = "/portoflio/_serverFn/";
+var ROUTER_BASEPATH = "portfolio";
+var SERVER_FN_BASE = "/portfolio/_serverFn/";
 var IS_PRERENDERING = process.env.TSS_PRERENDERING === "true";
 var IS_SHELL_ENV = process.env.TSS_SHELL === "true";
 var ERR_NO_RESPONSE = "Internal Server Error";
