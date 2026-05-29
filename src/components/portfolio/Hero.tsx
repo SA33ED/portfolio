@@ -99,7 +99,7 @@ export function Hero() {
         >
           <a
             href="#projects"
-            className="group relative isolate inline-flex items-center gap-2 overflow-hidden rounded-xl bg-gradient-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-glow transition-all duration-150 hover:-translate-y-0.5 hover:shadow-glow-accent"
+            className="group relative isolate inline-flex items-center gap-2 overflow-hidden rounded-xl bg-gradient-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-glow transition-all duration-150 hover:shadow-glow-accent"
           >
             <span
               aria-hidden="true"
