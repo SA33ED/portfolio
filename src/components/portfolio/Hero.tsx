@@ -99,10 +99,20 @@ export function Hero() {
         >
           <a
             href="#projects"
-            className="group inline-flex items-center gap-2 rounded-xl bg-gradient-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-glow transition-all hover:bg-[linear-gradient(135deg,oklch(0.70_0.20_305),oklch(0.78_0.16_220))] hover:shadow-glow-accent"
+            className="group relative isolate inline-flex items-center gap-2 overflow-hidden rounded-xl bg-gradient-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-glow transition-all duration-300 hover:-translate-y-0.5 hover:shadow-glow-accent"
           >
-            <Eye size={16} />
-            View Projects
+            <span
+              aria-hidden="true"
+              className="absolute inset-0 bg-[linear-gradient(135deg,oklch(0.70_0.20_305),oklch(0.78_0.16_220),oklch(0.70_0.20_305))] bg-[length:200%_200%] opacity-0 transition-opacity duration-300 animate-gradient group-hover:opacity-100"
+            />
+            <span
+              aria-hidden="true"
+              className="absolute -inset-1 bg-[linear-gradient(135deg,oklch(0.78_0.16_220/.55),oklch(0.70_0.20_305/.65),oklch(0.78_0.16_220/.55))] bg-[length:200%_200%] opacity-0 blur-xl transition-opacity duration-300 animate-gradient group-hover:opacity-70"
+            />
+            <span className="relative z-10 inline-flex items-center gap-2">
+              <Eye size={16}  />
+              View Projects
+            </span>
           </a>
           <a
             href={`${siteBasePath}Mohammed_Saeed_Flutter.pdf`}
