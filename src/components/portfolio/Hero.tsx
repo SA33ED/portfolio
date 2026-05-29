@@ -99,9 +99,9 @@ export function Hero() {
         >
           <a
             href="#projects"
-            className="group inline-flex items-center gap-2 rounded-xl bg-gradient-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-glow hover:shadow-glow-accent transition-all hover:-translate-y-0.5"
+            className="group inline-flex items-center gap-2 rounded-xl bg-gradient-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-glow transition-all hover:bg-[linear-gradient(135deg,oklch(0.70_0.20_305),oklch(0.78_0.16_220))] hover:shadow-glow-accent"
           >
-            <Eye size={16} className="group-hover:translate-x-1 transition-transform" />
+            <Eye size={16} />
             View Projects
           </a>
           <a
