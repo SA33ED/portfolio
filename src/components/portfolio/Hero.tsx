@@ -134,7 +134,7 @@ export function Hero() {
         </motion.div>
 
         <motion.a
-          href="https://github.com"
+          href="https://github.com/SA33ED"
           target="_blank"
           rel="noreferrer"
           initial={{ opacity: 0 }}
@@ -143,7 +143,7 @@ export function Hero() {
           className="mt-12 hidden md:inline-flex mx-auto items-center gap-2 text-xs text-muted-foreground hover:text-foreground transition-colors"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <Github size={14} /> Open source contributor • 100+ commits this year
+          <Github size={14} /> Open source contributor • 1000+ commits this year
         </motion.a>
       </div>
     </section>
